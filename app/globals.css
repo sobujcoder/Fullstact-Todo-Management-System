@@ -1,0 +1,104 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #e6f7ff;
+  }
+  
+  .navbar{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    list-style-type: none;
+    background-color:#e6f7ff;
+    border:3px solid gray;
+    border-radius: 5px;
+   
+  }
+  
+  .navbar li{
+    margin-top: 20 px;
+    font-size:18px;
+    text-decoration: none;
+  }
+  
+  
+  
+  .active {
+    color: red;
+  }
+
+
+
+  .footer {
+    background-color: #e6f7ff;
+    
+    padding: 10px;
+    text-align: center;
+    border:3px solid gray;
+    border-radius: 5px;
+
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  
+  .social-icons a {
+    color: black;
+    font-size: 40px;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+
+  .custom-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .custom-Image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .line {
+    position: absolute;
+    top: 100px; /* Increase this value to lower the line */
+    left: 45%; /* Position the line in the middle of the container */
+    width: 2px; /* Adjust this value as needed for the thickness of the line */
+    height: calc(100% - 288px); /* Reduce the height of the line by 20px above and below the container */
+    background-color: black; /* Adjust color as needed */
+    z-index: 699; /* Set a high positive value to bring the line above other content */
+  }
+
+  .homeLine{
+
+    position: absolute;
+    top: 180px; /* Increase this value to lower the line */
+    left: 45%; /* Position the line in the middle of the container */
+    width: 2px; /* Adjust this value as needed for the thickness of the line */
+    height: calc(100% - 250px); /* Reduce the height of the line by 20px above and below the container */
+    background-color: black; /* Adjust color as needed */
+    z-index: 699;
+
+  }
+  
+  
+  
+  
+  
+
+  
+  
